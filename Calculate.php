@@ -1,15 +1,9 @@
 <?php
-
-namespace Hung;
-
-class Calculate
+namespace kynm\SayHello;
+class SayHello
 {
-    public $a =6;
-    public $b =6;
-    public function sum()
+    public static function world()
     {
-        $a =$this->a;
-        $b =$this->b;
-        return $a+$b;
+        return 'Hello World, Composer!';
     }
 }
