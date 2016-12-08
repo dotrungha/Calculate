@@ -4,8 +4,12 @@ namespace Hung;
 
 class Calculate
 {
-    public function sum($a, $b)
+    public $a =6;
+    public $b =6;
+    public function sum()
     {
+        $a =$this->a;
+        $b =$this->b;
         return $a+$b;
     }
 }
